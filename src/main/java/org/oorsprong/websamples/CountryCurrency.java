@@ -1,6 +1,8 @@
 
 package org.oorsprong.websamples;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -35,6 +37,7 @@ import javax.xml.bind.annotation.XmlType;
 public class CountryCurrency {
 
     @XmlElement(required = true)
+    @JsonProperty("sCountryISOCode")
     protected String sCountryISOCode;
 
     /**
