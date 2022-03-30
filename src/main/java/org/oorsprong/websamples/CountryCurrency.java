@@ -31,14 +31,14 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "sCountryISOCode"
+        "scountryISOCode"
 })
 @XmlRootElement(name = "CountryCurrency")
 public class CountryCurrency {
 
     @XmlElement(required = true)
-    @JsonProperty("sCountryISOCode")
-    protected String sCountryISOCode;
+    //@JsonProperty("sCountryISOCode")
+    protected String scountryISOCode;
 
     /**
      * Gets the value of the sCountryISOCode property.
@@ -48,8 +48,8 @@ public class CountryCurrency {
      *     {@link String }
      *     
      */
-    public String getSCountryISOCode() {
-        return sCountryISOCode;
+    public String getScountryISOCode() {
+        return scountryISOCode;
     }
 
     /**
@@ -60,8 +60,8 @@ public class CountryCurrency {
      *     {@link String }
      *     
      */
-    public void setSCountryISOCode(String value) {
-        this.sCountryISOCode = value;
+    public void setScountryISOCode(String value) {
+        this.scountryISOCode = value;
     }
 
 }
