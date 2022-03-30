@@ -28,7 +28,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "CountryCurrency", propOrder = {
+@XmlType(name = "", propOrder = {
     "sCountryISOCode"
 })
 @XmlRootElement(name = "CountryCurrency")
